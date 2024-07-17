@@ -1262,11 +1262,11 @@ MonoBehaviour:
   - {fileID: 1484619378}
   - {fileID: 1767944100}
   - {fileID: 2127646165}
-  _maximumSpawnTimeout: 1.86
+  _maximumSpawnTimeout: 2
   _minimumSpawnTimeout: 1
   _maximumEnemySpeed: 2
   _minimumEnemySpeed: 1
-  _enemySpawnHealth: 2
+  _enemyHealth: 5
 --- !u!1 &1330298463
 GameObject:
   m_ObjectHideFlags: 0

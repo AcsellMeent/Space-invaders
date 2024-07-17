@@ -62,11 +62,17 @@ public class PlayerAutoShooting : MonoBehaviour
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, _shootingRadius, _layerMask);
 
+        float nearestDistance = Mathf.Infinity;
         foreach (Collider2D collider in colliders)
         {
             if (collider.gameObject.GetComponent<Enemy>())
             {
-                _currentTarget = collider.transform;
+                float distance = Vector2.Distance(transform.position, collider.transform.position);
+                if (distance < nearestDistance)
+                {
+                    nearestDistance = distance;
+                    _currentTarget = collider.transform;
+                }
             }
         }
     }

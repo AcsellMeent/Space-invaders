@@ -49,5 +49,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78823959b9285d44db8d74babed762bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maximumEnemyCount: 10
-  _minimumEnemyCount: 5
+  _maximumEnemyCount: 15
+  _minimumEnemyCount: 10
