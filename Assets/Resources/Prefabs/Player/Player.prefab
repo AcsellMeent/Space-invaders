@@ -256,7 +256,7 @@ MonoBehaviour:
   _shootingSpeed: 5
   _shootingRadius: 5
   _bulletDamage: 3
-  _bulletSpeed: 10
+  _bulletSpeed: 3
   _bullet: {fileID: 4609017991259755894, guid: 912be8a3e55d76241a4ae0fa2d0a1f10, type: 3}
   _layerMask:
     serializedVersion: 2
